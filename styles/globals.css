@@ -31,6 +31,7 @@ header span {
 header span:first-child {
   font-size: 1em;
   font-weight: 400;
+  background:rgb(240, 68, 68);
 }
 header span:last-child {
   font-size: 1.5em;
@@ -38,7 +39,8 @@ header span:last-child {
 }
 header h2 {
   font-size: 1.2em;
-  font-weight: 400;
+  font-weight: 460;
+  background:rgb(78, 243, 63);
 }
 footer {
   background: #111;
