@@ -8,7 +8,7 @@ export default function Layout({ children }) {
           <a>
             <h1>
               <span>fun-bay :)</span>
-              <span>Just Add Marmite</span>
+              <span>Just Add Marmite ✔</span>
             </h1>
             <h2>Life hacks and recipes - Spread The Joy!</h2>
           </a>
