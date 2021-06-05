@@ -10,7 +10,7 @@ export default function Layout({ children }) {
               <span>All You Gotta Do</span>
               <span>is Add Marmite</span>
             </h1>
-            <h2>Spread The Joy</h2>
+            <h2>Fun Life Hack Recipes - Spread The Joy!</h2>
           </a>
         </Link>
       </header>
