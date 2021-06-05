@@ -7,8 +7,8 @@ export default function Layout({ children }) {
         <Link href="/">
           <a>
             <h1>
-              <span>All you gotta do</span>
-              <span>Add Marmite</span>
+              <span>fun-bay :)</span>
+              <span>Just Add Marmite</span>
             </h1>
             <h2>Life hacks and recipes - Spread The Joy!</h2>
           </a>
