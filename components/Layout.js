@@ -7,10 +7,10 @@ export default function Layout({ children }) {
         <Link href="/">
           <a>
             <h1>
-              <span>fun-bay :) how to have fun</span>
-              <span>Just Add Marmite ✔</span>
+              <span>fun-bay life hackbook</span>
+              <span>🔥 Add Marmite 🚀 </span>
             </h1>
-            <h2>Life hacks and recipes - Spread The Joy!</h2>
+            <h2>Recipes and Ideas for Having Fun - Spread the Joy!</h2>
           </a>
         </Link>
       </header>
@@ -20,14 +20,15 @@ export default function Layout({ children }) {
       </div>
 
       <footer><Link href="/">
-        <a><p>Copyright 2021 fun-bay.com :)</p></a>
+        <a><p>Copyright 2021 fun-bay.com Life Hackbook</p></a>
       </Link>
         <div class="social">
-          <a href="https://twitter.com/jdhorth" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
-          <a href="https://facebook.com/justinhorth" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-          <a href="https://youtube.com/jdubhman" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
-          <a href="https://www.linkedin.com/in/justinhorth" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-          <a href="https://github.com/jdhorth" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+          <Link href="https://pinterest.com/non-fungi" target="_blank"><a><i class="fab fa-pinterest fa-3x"></i></a></Link>
+          <Link href="https://twitter.com/jdhorth" target="_blank"><a><i class="fab fa-twitter fa-3x"></i></a></Link>
+          <Link href="https://youtube.com/jdubhman" target="_blank"><a><i class="fab fa-youtube fa-3x"></i></a></Link>
+          <Link href="https://www.linkedin.com/in/justinhorth" target="_blank"><a><i class="fab fa-linkedin fa-3x"></i></a></Link>
+          <Link href="https://github.com/jdhorth" target="_blank"><a><i class="fab fa-github fa-3x"></i></a></Link>
+
         </div>
       </footer>
     </div>
