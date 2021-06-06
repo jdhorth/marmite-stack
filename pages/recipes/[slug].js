@@ -64,7 +64,7 @@ export default function RecipeDetails({ recipe }) {
         <h2>{title}</h2>
       </div>
       <div className="info">
-        <p>Take about {cookingTime} mins to fix</p>
+        <p>Takes about {cookingTime} mins to make or do...⌚</p>
         <h3>Ingredients:</h3>
         {ingredients.map(ing => (
           <span key={ing}>{ing}</span>
@@ -88,7 +88,7 @@ export default function RecipeDetails({ recipe }) {
           position: relative;
           top: -60px;
           left: -10px;
-          transform: rotateZ(-2deg);
+          transform: rotateZ(-3deg);
           box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
         }
         .info p {
