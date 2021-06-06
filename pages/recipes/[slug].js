@@ -65,14 +65,14 @@ export default function RecipeDetails({ recipe }) {
       </div>
       <div className="info">
         <p>Takes about {cookingTime} mins to make or do...⌚</p>
-        <h3>Ingredients:</h3>
+        <h3>🥗 Ingredients:</h3>
         {ingredients.map(ing => (
           <span key={ing}>{ing}</span>
         ))}
       </div>
 
       <div className="method">
-        <h3>Method:</h3>
+        <h3>🏫 Method / Instructions:</h3>
         <div>{documentToReactComponents(method)}</div>
       </div>
 
