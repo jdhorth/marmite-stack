@@ -33,6 +33,7 @@ export default function Layout({ children }) {
           <style jsx>{`
                 .social {
                     background: #fff;
+                    width: 50%;
                     padding: 1px;
                     box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
                     transform: rotateZ(-2deg);
