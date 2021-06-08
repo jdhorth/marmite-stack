@@ -22,7 +22,7 @@ export default function Layout({ children }) {
       <footer><Link href="/">
         <a><p>© 2021 fun-bay.com 😹</p></a>
       </Link>
-        <div >
+        <div>
           <section className="social">
             <Link href="https://pinterest.com/non-fungi" target="_blank"><a><i className="fab fa-pinterest fa-3x"></i></a></Link>
             <Link href="https://twitter.com/jdhorth" target="_blank"><a><i className="fab fa-twitter fa-3x"></i></a></Link>
@@ -33,8 +33,9 @@ export default function Layout({ children }) {
           <style jsx>{`
                 .social {
                     background: #fff;
-                    width: 50%;
-                    padding: 1px;
+                    width: 30vw;
+                    margin: 0 30%;
+                    border-radius: 10px;
                     box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
                     transform: rotateZ(-2deg);
                   }
